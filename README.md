@@ -2,7 +2,6 @@
 
 A modern, full-stack wishlist platform where users can create, organize, and share wishlists with friends and family. Save products from any online store, manage multiple wishlists, discover popular brands, and enjoy a clean, responsive user experience.
 
-> **Live Demo:** https://iwish-orpin.vercel.app/
 
 ---
 
