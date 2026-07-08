@@ -123,89 +123,20 @@ styles/
 
 ---
 
-# 📱 Responsive Design
-
-The application is fully responsive and optimized for:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
 
 ---
 
-# 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/Bedirhanelcik/iwish.git
-```
-
-Go into the project
-
-```bash
-cd iwish
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Create a `.env.local` file and add your environment variables.
-
-Run the development server
-
-```bash
-npm run dev
-```
-
-Open
-
-```
-http://localhost:3000
-```
 
 ---
 
-# 🔧 Environment Variables
 
-Create a `.env.local` file.
 
-```env
-NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
-
-NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-
-SUPABASE_SERVICE_ROLE_KEY=YOUR_SERVICE_ROLE_KEY
-```
-
----
-
-# 💡 Highlights
-
-- Full Stack Application
-- Modern SaaS UI
-- Authentication System
-- Database Integration
-- Wishlist Sharing
-- Product Management
-- Responsive Design
-- Clean Code Architecture
-- Production Deployment
-- Scalable Component Structure
-
----
 
 # 📈 Future Improvements
 
 - Gift reservation system
 - Email notifications
 - AI product recommendations
-- Browser extension
-- Social login
 - Dark mode
 - Advanced search & filtering
 - Product price history
