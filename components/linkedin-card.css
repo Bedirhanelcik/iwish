@@ -1,0 +1,155 @@
+.tooltip-container {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  border-radius: 15px;
+  z-index: 999;
+}
+
+.profile {
+  background: #2a2b2f;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #0a66c2;
+  min-width: 240px;
+
+  box-shadow:
+    inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.tooltip-container:hover .tooltip {
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  opacity: 1;
+  bottom: 95px;
+}
+
+.icon {
+  text-decoration: none;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+.layer {
+  width: 38px;
+  height: 38px;
+  transition: transform 0.3s;
+}
+
+.icon:hover .layer {
+  transform: rotate(-35deg) skew(20deg);
+}
+
+.layer span {
+  position: absolute;
+  inset: 0;
+  border: 1px solid #0a66c2;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.icon:hover .layer span:nth-child(1) {
+  opacity: 0.2;
+}
+
+.icon:hover .layer span:nth-child(2) {
+  opacity: 0.4;
+  transform: translate(5px, -5px);
+}
+
+.icon:hover .layer span:nth-child(3) {
+  opacity: 0.6;
+  transform: translate(10px, -10px);
+}
+
+.icon:hover .layer span:nth-child(4) {
+  opacity: 0.8;
+  transform: translate(15px, -15px);
+}
+
+.icon:hover .layer span:nth-child(5) {
+  opacity: 1;
+  transform: translate(20px, -20px);
+}
+
+.fab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 26px;
+  fill: #0a66c2;
+  background: #000000;
+}
+
+.text-linkedin {
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  opacity: 0;
+  color: #0a66c2;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.icon:hover .text-linkedin {
+  opacity: 1;
+  bottom: -35px;
+}
+
+.user {
+  display: flex;
+  gap: 12px;
+}
+
+.img {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  background: white;
+  color: #0a66c2;
+  font-size: 20px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.username {
+  color: white;
+  font-size: 14px;
+}
+
+.about {
+  color: #bdbdbd;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
